@@ -1,0 +1,15 @@
+{
+  "default-runtime": "runc",
+  "runtimes": {
+    "kata-qemu": {
+      "path": "/opt/kata/bin/kata-qemu"
+    },
+    "kata-fc": {
+      "path": "/opt/kata/bin/kata-fc"
+    },
+    "runsc": {
+      "path": "/usr/local/bin/runsc"
+    }
+  },
+  "storage-driver": "devicemapper"
+}
